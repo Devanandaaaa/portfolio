@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devananda D - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 class="fade-in">Devananda D</h1>
+        <p class="fade-in">Computer Science & Engineering Student</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>
+            Hello! I’m Devananda D, a Computer Science and Engineering student with a passion for web development.
+            I enjoy building interactive websites and applications. Currently, I'm learning new technologies and working on 
+            personal projects to sharpen my skills.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects-list" class="fade-in">
+        <h2>My Projects</h2>
+        <ul>
+            <li><button onclick="showProjectDetails('spiceWhirl')">SpiceWhirl: Recipe Website</button></li>
+            <li><button onclick="showProjectDetails('portfolio')">Portfolio Website</button></li>
+            <li><button  onclick="showProjectDetails('fungame')">fungame</button></li>
+            <li><button  onclick="showProjectDetails('useless buttons')">useless buttons</button></li>
+        </ul>
+    </section>
+
+    <!-- Project Details Section -->
+    <section id="project-details" style="display: none;">
+        <button onclick="showProjectsList()" class="back-button">Back to Projects List</button>
+        <div id="details-container"></div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <p>Email: devanand.2212@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/devananda-d-10aa10317/" target="_blank">LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Devanandaaaa" target="_blank">GitHub</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Devananda D</p>
+    </footer>
+</body>
+</html>
